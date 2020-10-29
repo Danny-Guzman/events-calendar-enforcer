@@ -1,0 +1,1 @@
+# Force WP Template for The Events Calendar Plugin
