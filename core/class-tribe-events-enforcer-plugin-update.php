@@ -200,9 +200,9 @@ if ( ! class_exists( 'Tribe_Events_Enforcer_Plugin_Update' ) ) {
 
 		/**
 		 * Filters the response for the current WordPress.org Plugin Installation API request.
-		 * 
+		 *
 		 * @see https://developer.wordpress.org/reference/functions/plugins_api/
-		 * 
+		 *
 		 * @param  false|object|array $result The result object or array. Default false.
 		 * @param  string             $action The type of information being requested from the Plugin Installation API.
 		 * @param  object             $args Plugin API arguments.
@@ -276,7 +276,7 @@ if ( ! class_exists( 'Tribe_Events_Enforcer_Plugin_Update' ) ) {
 
 		/**
 		 * Plugin Details
-		 * 
+		 *
 		 * @see https://developer.wordpress.org/reference/functions/plugins_api/
 		 * @return array
 		 */
@@ -289,7 +289,7 @@ if ( ! class_exists( 'Tribe_Events_Enforcer_Plugin_Update' ) ) {
 					'Description' => 'Forces The Events Calendar Plugin to use the WordPress template hierarchy for events instead of its own templates.',
 				),
 				'requires' => '5.0.0',
-				'tested' => '5.4.1',
+				'tested'   => '5.4.1',
 			);
 
 			return $view_details;
